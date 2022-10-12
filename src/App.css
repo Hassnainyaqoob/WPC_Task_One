@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+#all_Parent {
+    background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_487063216_162506.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.score-div {
+    text-align: center;
+    margin-top: 235px;
+    font-size: 40px;
+    background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.questionNumber {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.questionAll {
+    margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.questionallDiv {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    width: 750px;
+    margin-left: 270px;
+    height: 230px;
+    font-size: 25px;
+    opacity: .7;
+    margin-top: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.button_div {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#buttons_all {
+    margin: 35px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+#buttons_all:hover {
+    background-color: black;
+    opacity: .9;
 }
